@@ -34,11 +34,6 @@ Put your GGUF or HF model in the project `models` folder. Example path used by t
 
 Then set the environment variable (PowerShell):
 
-```powershell
-#$env:LOCAL_MODEL_PATH should point to the model file or folder
-$env:LOCAL_MODEL_PATH = Join-Path (Get-Location) 'models\\mistral-7b.gguf'
-```
-
 5) Run the server and open the UI
 
 ```powershell
