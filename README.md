@@ -40,7 +40,6 @@ Then set the environment variable (PowerShell):
 uvicorn app.main:app --reload --port 8000
 ```
 
-Open the frontend at: http://127.0.0.1:8000/static/index.html
 
 Useful debug endpoints
 - `POST /api/stt`  upload audio (used by the frontend)
